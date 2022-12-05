@@ -1,4 +1,4 @@
-# Symfony / Nuxt.js test PULS
+# Symfony / Nuxt.js 4Tech Test
 
 During this test, you'll need to develop a minimal listing of vehicles based on the [design on adobe XD](https://xd.adobe.com/view/b65f84ac-efe6-4c0c-9593-cc996d93ea5b-e30c/).
 
