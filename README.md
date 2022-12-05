@@ -1,8 +1,8 @@
-# Symfony test PULS
+# Symfony / Nuxt.js test PULS
 
 During this test, you'll need to develop a minimal listing of vehicles based on the [design on adobe XD](https://xd.adobe.com/view/b65f84ac-efe6-4c0c-9593-cc996d93ea5b-e30c/).
 
-You will need to use this github as a starter to match the design.
+You will need to use this github as a starter to match the front design.
 
 ![Screenshot 2022-03-28 at 17 08 06](https://user-images.githubusercontent.com/34513693/160428961-cd2a1bfb-7ea7-4967-992f-41fa20047211.png)
 
@@ -15,6 +15,7 @@ A data fixture is ready to be loaded inside the Vehicles entity.
 - Install dependencies: `composer install` + `yarn`
 - Run Symfony: `php -S localhost:8000 -t public/` or using the symfony CLI
 - Check it on http://localhost:8000 (port may change if already taken)
+- Start a new [Nuxt.js](https://nuxtjs.org/docs/get-started/installation) Project
 
 ### Verification
 
@@ -22,9 +23,10 @@ You don't need to deploy your project for verification. You can push it in githu
 
 ### Rules and Evaluation
 - You're allowed to use any external ressource
-- You must use Controllers to send back and forth the filtering from the form (don't do it all in Javascript)
+- You must use Api Controllers to send back and forth the filtering from the form (It's not required to use API Authentication Token)
+- You must use [Nuxt.js](https://nuxtjs.org/docs/get-started/installation) for the front App 
 - We advice you to use TailwindCSS for the styling
-- We advice you to use TWIG for the front
+- Push both projects (Symfony, Nuxt.js) in to your Github (as public repositories), and send us the links for evaluation
 
 ## Points
 ### Form
